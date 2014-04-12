@@ -1,0 +1,81 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <div class="container" style="margin-top:30px;">
+
+
+        <!--START STATS-WIDGET -->
+
+        <div class="row">
+            <!--START -RECENT-POSTS-WIDGET -->
+
+            <div class="span6">
+                <div class="widget_heading">
+                    <h4>All Books <a href="{{ path("home") }}" class="btn btn-small"
+                                     style="float: right; margin-top: -5px;">Add New Book</a></h4>
+
+                </div>
+                <div class="widget_container">
+                    <ul class="unstyled">
+                        {% for book in pagination %}
+
+                            <li class="widget_recent_posts">
+                                <div class="widget_rp_img">
+                                    <a href="{{ path("home" , app.request.query.all|merge( {'book_id' : book.id} )) }}">
+                                        <img src="{{ asset("uploads/book_cover/") }}{{ book.bookcover }}"
+                                             alt="{{ book.bookname }}"> </a>
+                                </div>
+
+                                <div class="widget_rp_des">
+                                    <h4>
+                                        <a href="{{ path("home" , app.request.query.all|merge( {'book_id' : book.id} )) }}">{{ book.bookname }}</a><span>{{ book.bookprice|number_format(0,"."," ") }}
+                                            ₮</span></h4>
+
+                                    <p style="white-space: normal; overflow: hidden; text-overflow: ellipsis; height: 50px;">
+                                        L{{ book.bookdesc }}</p>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    {# display navigation for pages - paginator_navigator #}
+                    {% if pagination|length > 0 and paginator.getTotalPages() > 1 %}
+                        {{ include('EmpaathyPressBookStoreBundle:Paginator:paginator_navigator.html.twig', {'paginator' : paginator}) }}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="span6">
+                <div class="widget_heading">
+                    <h4>Book Form
+                        <a href="#" class="btn btn-small" style="float: right; margin-top: -5px;"
+                           onclick="$('.widget_container').find('form').submit();">Save</a>
+                        <a href="{{ path("delete_book",app.request.query.all|merge({'book_id' : app.request.get("book_id") })  ) }}" class="btn btn-small" style="float: right; margin-top: -5px; margin-right: 5px;" onclick="return confirm('Are you sure?')">Delete</a>
+                    </h4>
+
+                </div>
+                <div class="widget_container">
+                    {{ form(book_form) }}
+                    <div class="sidebar" style="float: right; width: 50%;">
+                        <h4>File Name:</h4>
+                        {{ file_name }}
+
+                        <p><img src="{{ asset("uploads/book_cover/") }}{{ cover }}" alt="Books"></p>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--END-RECENT-POSTS-WIDGET -->
+
+        <style>
+            .widget_container form {
+                float: left;
+                width: 50%;
+            }
+        </style>
+    </div>
+{% endblock %}

@@ -1,0 +1,3 @@
+empaathy_press_book_store_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: EmpaathyPressBookStoreBundle:Default:index }

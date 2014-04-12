@@ -1,0 +1,4 @@
+empaathy_press_book_store:
+    resource: "@EmpaathyPressBookStoreBundle/Controller/"
+    type:     annotation
+    prefix:   /

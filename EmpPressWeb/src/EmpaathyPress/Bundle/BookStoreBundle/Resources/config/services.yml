@@ -1,0 +1,7 @@
+parameters:
+#    empaathy_press_book_store.example.class: EmpaathyPress\Bundle\BookStoreBundle\Example
+
+services:
+#    empaathy_press_book_store.example:
+#        class: %empaathy_press_book_store.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
