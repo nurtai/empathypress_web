@@ -48,7 +48,9 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface, C
         $encoder = $factory->getEncoder($user1);
         $password = $encoder->encodePassword('manuel', $user1->getSalt());
 
+
         $user1->setPassword($password);
+        $user1->setPasswordForIphone(md5('manuel'));
         $user1->addRole($this->getReference('role_user'));
 
         $user2 = new User();
@@ -58,6 +60,7 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface, C
         $password = $encoder->encodePassword('max', $user1->getSalt());
 
         $user2->setPassword($password);
+        $user2->setPasswordForIphone(md5('max'));
         $user2->addRole($this->getReference('role_user'));
 
         $admin = new User();
@@ -66,6 +69,7 @@ class LoadUserData extends AbstractFixture implements OrderedFixtureInterface, C
         $password = $encoder->encodePassword('adminpass', $admin->getSalt());
 
         $admin->setPassword($password);
+        $admin->setPasswordForIphone(md5("adminpass"));
         $admin->addRole($this->getReference('role_admin'));
 
         $manager->persist($user1);

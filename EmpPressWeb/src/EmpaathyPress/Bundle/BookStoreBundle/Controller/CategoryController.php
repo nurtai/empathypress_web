@@ -95,7 +95,39 @@ class CategoryController extends Controller
 
         foreach ($category as $c) {
             /* @var $c BookCategory*/
-            $data[]=$c->getName();
+            $a['id']=$c->getId();
+            $a['name']=$c->getName();
+            $data[]=$a;
+        }
+        $response=new JsonResponse();
+        $response->setContent(json_encode($data,JSON_UNESCAPED_UNICODE));
+        $response->headers->set('Content-Type', 'application/json; charset=utf-8');
+
+        return  $response;
+    }
+
+    /**
+     * @Route("/books/data", name="books_data")
+     * @Template()
+     */
+    public function getBooksAction(Request $request)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $category = $em->getRepository('EmpaathyPressBookStoreBundle:BookStore')->findAll();
+        $data=array();
+
+        foreach ($category as $c) {
+            /* @var $c BookStore*/
+            $a['id']=$c->getId();
+            $a['name']=$c->getBookName();
+            $a['cover']=$c->getBookCover();
+            $a['author']=$c->getBookAuthor();
+            $a['desc']=$c->getBookDesc();
+            $a['price']=$c->getBookPrice();
+            $a['file']=$c->getBookFilename();
+            $a['category_id']=$c->getBookCategory()->getId();
+            $data[]=$a;
         }
         $response=new JsonResponse();
         $response->setContent(json_encode($data,JSON_UNESCAPED_UNICODE));

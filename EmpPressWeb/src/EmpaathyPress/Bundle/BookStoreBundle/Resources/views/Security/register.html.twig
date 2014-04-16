@@ -1,0 +1,64 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block body %}
+    <div class="container" style="margin-top:90px;">
+
+
+        <div style="width:350px; margin-left:auto; margin-right:auto;">
+            <div class="widget_login">
+                <div class="page-header">
+                    <h3>
+                        Register
+                        <small>for free</small>
+                    </h3>
+                    {% if error is defined %}
+                        <div class="alert alert-info">
+                            {{ error }}
+                        </div>
+                    {% endif %}
+                </div>
+                <form action="{{ path("register") }}" method="POST">
+                    <div class="control-group">
+                        <label class="control-label" for="username">Username</label>
+
+                        <div class="controls">
+                            <input type="text" class="input-xlarge" style="width:285px; padding:10px;" id="username"
+                                   name="username" required="required"/>
+                        </div>
+                        <label class="control-label" for="email">Email</label>
+
+                        <div class="controls">
+                            <input type="email" class="input-xlarge" style="width:285px; padding:10px;" id="email"
+                                   name="email" required="required"/>
+                        </div>
+                        <label class="control-label" for="password">Password</label>
+
+                        <div class="controls">
+                            <input type="password" class="input-xlarge" style="width:285px; padding:10px;" id="password"
+                                   name="password" required="required"/>
+                        </div>
+                        <label class="control-label" for="password_confirm">Confirm Password</label>
+
+                        <div class="controls">
+                            <input type="password" class="input-xlarge" style="width:285px; padding:10px;"
+                                   id="password_confirm" name="password_confirm" required="required"/>
+
+                            <button type="submit" style="width:100%;" class="large lightblue button radius">Submit
+                            </button>
+                        </div>
+                    </div>
+                    <hr/>
+                    <p>Already have an account?<a href="#"></a><span class="pull-right"><a href="{{ path("home") }}">Login</a></span>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+{% endblock %}

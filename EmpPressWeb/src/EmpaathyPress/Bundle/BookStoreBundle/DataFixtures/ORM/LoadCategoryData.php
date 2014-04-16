@@ -44,13 +44,13 @@ class LoadCategoryData extends AbstractFixture implements OrderedFixtureInterfac
         $factory = $this->container->get('security.encoder_factory');
 
         $cat1=new BookCategory();
-        $cat1->setBookName("Category1");
+        $cat1->setName("Category1");
 
         $cat2=new BookCategory();
-        $cat2->setBookName("Category2");
+        $cat2->setName("Category2");
 
         $cat3=new BookCategory();
-        $cat3->setBookName("Category3");
+        $cat3->setName("Category3");
 
         $manager->persist($cat1);
         $manager->persist($cat2);

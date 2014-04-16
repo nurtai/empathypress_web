@@ -23,46 +23,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Default/index.html.twig">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="93" selection-start="325" selection-end="469" vertical-scroll-proportion="-5.625" vertical-offset="75" max-vertical-offset="1305">
+            <state line="108" column="0" selection-start="4164" selection-end="4164" vertical-scroll-proportion="-56.166668" vertical-offset="197" max-vertical-offset="1800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <file leaf-file-name="register.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="207" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1305">
+            <state line="46" column="49" selection-start="2035" selection-end="2035" vertical-scroll-proportion="-3.4615386" vertical-offset="420" max-vertical-offset="1035">
+              <folding>
+                <element signature="e#125#149#0" expanded="true" />
+                <element signature="e#166#223#0" expanded="true" />
+                <element signature="e#983#1017#0" expanded="true" />
+                <element signature="e#1332#1366#0" expanded="true" />
+                <element signature="e#1684#1718#0" expanded="true" />
+                <element signature="e#2058#2092#0" expanded="true" />
+                <element signature="e#2247#2266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-13.208333" vertical-offset="283" max-vertical-offset="3585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SecurityController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/SecurityController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="27" selection-start="3504" selection-end="3504" vertical-scroll-proportion="0.4939759" vertical-offset="1475" max-vertical-offset="2040">
+              <folding>
+                <element signature="e#151#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadUserData.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadUserData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="39" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-14.375" vertical-offset="435" max-vertical-offset="1080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadCategoryData.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadCategoryData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="5" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-18.833334" vertical-offset="178" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="37" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.6801706" vertical-offset="1001" max-vertical-offset="1560">
+            <state line="105" column="26" selection-start="3393" selection-end="3609" vertical-scroll-proportion="-14.375" vertical-offset="1110" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="AbstractFixture.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/AbstractFixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-6.875" vertical-offset="255" max-vertical-offset="900">
+            <state line="30" column="30" selection-start="1309" selection-end="1324" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="-15.625" vertical-offset="30" max-vertical-offset="630">
+            <state line="39" column="101" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-3.6153846" vertical-offset="303" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -71,38 +117,7 @@
       <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookStoreRepository.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStoreRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="148" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="465">
-              <folding>
-                <marker date="1397100949000" expanded="true" signature="590:616" placeholder="select * fro..book_store..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookCategoryRepository.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategoryRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="465">
-              <folding>
-                <marker date="1397114151000" expanded="true" signature="596:625" placeholder="select * fro..book_category..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookCategory.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="22" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-25.083334" vertical-offset="598" max-vertical-offset="1320">
+            <state line="18" column="67" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -125,12 +140,7 @@
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/RoleRepository.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/UserRepository.php" />
-        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadUserData.php" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadRoleData.php" />
-        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadCategoryData.php" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Default/addBook.html.twig" />
         <option value="$PROJECT_DIR$/web/bundles/assets/css/dashboard.css" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Helpers/Paginator.php" />
@@ -138,16 +148,22 @@
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStoreRepository.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStore.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategory.php" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategoryRepository.php" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Category/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/CategoryController.php" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/register.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategory.php" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadCategoryData.php" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadUserData.php" />
+        <option value="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/SecurityController.php" />
       </list>
     </option>
   </component>
@@ -210,117 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book_pdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book_cover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpPressWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,6 +241,176 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecurityBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecurityBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,6 +485,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Security" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -642,6 +722,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="DataFixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ORM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpPressWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmpaathyPress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStoreBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -715,11 +829,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security" />
       <recent name="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views" />
       <recent name="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller" />
       <recent name="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Default" />
       <recent name="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM" />
-      <recent name="$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity" />
     </key>
   </component>
   <component name="RunManager">
@@ -753,6 +867,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -768,7 +883,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -791,34 +905,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="5" selection-start="3709" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Category/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="159" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="20" selection-start="4408" selection-end="4408" vertical-scroll-proportion="0.0" vertical-offset="2610" max-vertical-offset="3975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="562" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="93" selection-start="325" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1305">
@@ -829,7 +915,17 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="207" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1305">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,7 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="148" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="465">
           <folding>
-            <marker date="1397100949000" expanded="true" signature="590:616" placeholder="select * fro..book_store..." />
+            <marker date="1397100949000" expanded="true" signature="-1:-1" placeholder="select * fro..book_store..." />
           </folding>
         </state>
       </provider>
@@ -853,7 +949,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="465">
           <folding>
-            <marker date="1397114151000" expanded="true" signature="596:625" placeholder="select * fro..book_category..." />
+            <marker date="1397114151000" expanded="true" signature="-1:-1" placeholder="select * fro..book_category..." />
           </folding>
         </state>
       </provider>
@@ -890,11 +986,6 @@
         <state line="13" column="2" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="7" selection-start="1862" selection-end="1862" vertical-scroll-proportion="-62.5" vertical-offset="0" max-vertical-offset="1665" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/RoleRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="53" selection-start="102" selection-end="145" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="285" />
@@ -912,42 +1003,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/OrderedFixtureInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="10" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.40456432" vertical-offset="0" max-vertical-offset="482" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/AbstractFixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="15" selection-start="1309" selection-end="1309" vertical-scroll-proportion="-0.08921162" vertical-offset="253" max-vertical-offset="1395" />
+        <state line="29" column="10" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.40456432" vertical-offset="0" max-vertical-offset="482">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadRoleData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="34" selection-start="859" selection-end="859" vertical-scroll-proportion="-11.958333" vertical-offset="208" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadUserData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="59" selection-start="1855" selection-end="1855" vertical-scroll-proportion="-30.708334" vertical-offset="208" max-vertical-offset="1215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="39" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-11.958333" vertical-offset="388" max-vertical-offset="870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="644" selection-end="669" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadCategoryData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.5695067" vertical-offset="391" max-vertical-offset="945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="5" selection-start="3703" selection-end="3703" vertical-scroll-proportion="0.7424893" vertical-offset="2459" max-vertical-offset="2925" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
@@ -959,7 +1022,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/assets/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="10" selection-start="8633" selection-end="8633" vertical-scroll-proportion="0.0" vertical-offset="4058" max-vertical-offset="5385" />
+        <state line="282" column="10" selection-start="8633" selection-end="8633" vertical-scroll-proportion="0.0" vertical-offset="4058" max-vertical-offset="5385">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Helpers/Paginator.php">
@@ -983,26 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="29" selection-start="5825" selection-end="5834" vertical-scroll-proportion="0.47761193" vertical-offset="2296" max-vertical-offset="4335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStore.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="562" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="207" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="20" selection-start="4408" selection-end="4408" vertical-scroll-proportion="0.0" vertical-offset="2610" max-vertical-offset="3975">
+        <state line="191" column="29" selection-start="5825" selection-end="5834" vertical-scroll-proportion="0.47761193" vertical-offset="2296" max-vertical-offset="4335">
           <folding />
         </state>
       </provider>
@@ -1016,26 +1062,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStoreRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="148" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="465">
+        <state line="10" column="0" selection-start="148" selection-end="230" vertical-scroll-proportion="0.2970297" vertical-offset="0" max-vertical-offset="505">
           <folding>
-            <marker date="1397100949000" expanded="true" signature="590:616" placeholder="select * fro..book_store..." />
+            <marker date="1397100949000" expanded="true" signature="-1:-1" placeholder="select * fro..book_store..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategoryRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="465">
-          <folding>
-            <marker date="1397114151000" expanded="true" signature="596:625" placeholder="select * fro..book_category..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="5" selection-start="3709" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1875">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,30 +1076,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-6.875" vertical-offset="255" max-vertical-offset="900">
+        <state line="28" column="22" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.32673267" vertical-offset="255" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="-15.625" vertical-offset="30" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="22" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-25.083334" vertical-offset="598" max-vertical-offset="1320">
+        <state line="28" column="0" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.7425743" vertical-offset="30" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
@@ -1081,10 +1097,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookStore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="562" selection-end="619" vertical-scroll-proportion="0.373444" vertical-offset="210" max-vertical-offset="2850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.17821783" vertical-offset="0" max-vertical-offset="505">
+          <folding>
+            <marker date="1397114151000" expanded="true" signature="-1:-1" placeholder="select * fro..book_category..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="101" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-3.6153846" vertical-offset="303" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="4164" selection-end="4164" vertical-scroll-proportion="-56.166668" vertical-offset="197" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/SecurityContextInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="557" selection-end="557" vertical-scroll-proportion="0.3496802" vertical-offset="76" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views/Collector/security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="876" selection-end="876" vertical-scroll-proportion="-0.79957354" vertical-offset="630" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Command/InitAclCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.206823" vertical-offset="566" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ManagerRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="7" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.3682927" vertical-offset="149" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="57" selection-start="1409" selection-end="1409" vertical-scroll-proportion="-2.5395033" vertical-offset="1365" max-vertical-offset="3735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/AbstractFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="30" selection-start="1309" selection-end="1324" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="7" selection-start="1862" selection-end="1862" vertical-scroll-proportion="2.6058092" vertical-offset="184" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="881" selection-end="881" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1545">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="32" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.63752663" vertical-offset="1306" max-vertical-offset="1950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Encoder/BCryptPasswordEncoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="568" selection-end="568" vertical-scroll-proportion="-1.238806" vertical-offset="836" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Resources/views/Security/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="49" selection-start="2035" selection-end="2035" vertical-scroll-proportion="-3.4615386" vertical-offset="420" max-vertical-offset="1035">
+          <folding>
+            <element signature="e#125#149#0" expanded="true" />
+            <element signature="e#166#223#0" expanded="true" />
+            <element signature="e#983#1017#0" expanded="true" />
+            <element signature="e#1332#1366#0" expanded="true" />
+            <element signature="e#1684#1718#0" expanded="true" />
+            <element signature="e#2058#2092#0" expanded="true" />
+            <element signature="e#2247#2266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-13.208333" vertical-offset="283" max-vertical-offset="3585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="545" column="9" selection-start="15290" selection-end="15290" vertical-scroll-proportion="-1.4413646" vertical-offset="8851" max-vertical-offset="20880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Entity/BookCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="1" selection-start="1491" selection-end="1491" vertical-scroll-proportion="-41.25" vertical-offset="255" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="37" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.6801706" vertical-offset="1001" max-vertical-offset="1560">
+        <state line="105" column="26" selection-start="3393" selection-end="3609" vertical-scroll-proportion="-14.375" vertical-offset="1110" max-vertical-offset="2040">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadUserData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="39" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-14.375" vertical-offset="435" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/DataFixtures/ORM/LoadCategoryData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="5" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-18.833334" vertical-offset="178" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpaathyPress/Bundle/BookStoreBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="27" selection-start="3504" selection-end="3504" vertical-scroll-proportion="0.4939759" vertical-offset="1475" max-vertical-offset="2040">
+          <folding>
+            <element signature="e#151#204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

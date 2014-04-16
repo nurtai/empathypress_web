@@ -33,12 +33,27 @@ class User implements  UserInterface, \Serializable {
      */
     private $username;
 
+
+    /**
+     * @var string $email
+     *
+     * @ORM\Column(name="email", type="string", length=255, nullable=true)
+     */
+    private $email;
+
     /**
      * @var string $password
      *
      * @ORM\Column(name="password", type="string", length=255)
      */
     private $password;
+
+    /**
+     * @var string $password
+     *
+     * @ORM\Column(name="password_for_iphone", type="string", length=255)
+     */
+    private $password_for_iphone;
 
     /**
      * @var string $salt
@@ -191,5 +206,38 @@ class User implements  UserInterface, \Serializable {
             $this->userRoles, $this->id) = json_decode(
             $serialized);
     }
+
+    /**
+     * @param string $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param string $password_for_iphone
+     */
+    public function setPasswordForIphone($password_for_iphone)
+    {
+        $this->password_for_iphone = $password_for_iphone;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPasswordForIphone()
+    {
+        return $this->password_for_iphone;
+    }
+
 
 } 
