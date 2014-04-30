@@ -13,6 +13,8 @@ security:
     access_control:
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/register, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/register_iphone, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/login_iphone, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/category/data, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/books/data, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/_wdt, role: IS_AUTHENTICATED_ANONYMOUSLY }

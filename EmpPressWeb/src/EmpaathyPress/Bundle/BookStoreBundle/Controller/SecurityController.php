@@ -95,7 +95,7 @@ class SecurityController extends Controller
                 $manager->flush();
             } catch (\Exception $e) {
                 if ($e->getCode() == 0) {
-                    return array("error" => "This Information already registered!");
+                    return array("error" => "Your email or username  already exists.!");
                 }
 
             }
@@ -114,8 +114,8 @@ class SecurityController extends Controller
         $data = array();
         $username = $request->get("username");
         $password = $request->get("password");
-        error_log("Username: ".$username);
-        error_log("Password: ".$password);
+        error_log("Username: " . $username);
+        error_log("Password: " . $password);
         $manager = $this->getDoctrine()->getManager();
         $role_obj = $manager->getRepository("EmpaathyPressBookStoreBundle:User")->findOneBy(array("username" => $username, "password_for_iphone" => md5($password)));
         /* @var $role_obj User */
@@ -131,6 +131,59 @@ class SecurityController extends Controller
         return $response;
 
     }
+
+
+    /**
+     * @Route("/register_iphone", name="register_iphone")
+     * @Template()
+     *
+     */
+    public function registerIphoneAction(Request $request)
+    {
+
+        $factory = $this->container->get('security.encoder_factory');
+        $manager = $this->getDoctrine()->getManager();
+        $data['success'] = "true";
+        $password = $request->get("password");
+        $email = $request->get("email");
+        $username = $request->get("username");
+        $role = "ROLE_USER";
+
+        $register = new User();
+        $register->setEmail($email);
+        $register->setUsername($username);
+        $encoder = $factory->getEncoder($register);
+        $register->setPasswordForIphone(md5($password));
+        $password = $encoder->encodePassword($password, $register->getSalt());
+        $register->setPassword($password);
+
+        $role_obj = $manager->getRepository("EmpaathyPressBookStoreBundle:Role")->findOneBy(array("name" => $role));
+        $register->addRole($role_obj);
+        $manager->persist($register);
+
+        try {
+            $manager->flush();
+            $data['success'] = "true";
+            $response = new JsonResponse();
+            $response->setContent(json_encode($data, JSON_UNESCAPED_UNICODE));
+            $response->headers->set('Content-Type', 'application/json; charset=utf-8');
+
+            return $response;
+
+        } catch (\Exception $e) {
+            if ($e->getCode() == 0) {
+                $data['success'] = "false";
+                $data["error"] = "Your email or username  already exists.!";
+                $response = new JsonResponse();
+                $response->setContent(json_encode($data, JSON_UNESCAPED_UNICODE));
+                $response->headers->set('Content-Type', 'application/json; charset=utf-8');
+                error_log("error ".$e->getMessage() );
+
+                return $response;
+            }
+        }
+    }
+
 }
 
 ?>

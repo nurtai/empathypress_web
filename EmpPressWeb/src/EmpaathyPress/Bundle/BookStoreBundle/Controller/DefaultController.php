@@ -106,7 +106,6 @@ class DefaultController extends Controller
         $em = $this->getDoctrine()->getManager();
         $book = $em->getRepository('EmpaathyPressBookStoreBundle:BookStore')->findOneBy(array("id" => $request->get("book_id")));
 
-
         if (file_exists($dir . "/uploads/book_cover/" . $book->getBookCover())&&trim($book->getBookCover())!="")
             unlink($dir . "/uploads/book_cover/" . $book->getBookCover());
         if (file_exists($dir . "/uploads/book_pdf/" . $book->getBookFilename())&&trim($book->getBookFilename())!="")
